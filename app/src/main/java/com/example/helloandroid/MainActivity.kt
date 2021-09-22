@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         val view = binding.root
-        setContentView(R.layout.activity_main)
+        setContentView(view)
     }
 
     fun onClick(view: android.view.View) {
